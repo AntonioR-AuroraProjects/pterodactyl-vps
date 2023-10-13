@@ -6,7 +6,7 @@
     },
     "exported_at": "2023-08-09T01:24:11+02:00",
     "name": "vps",
-    "author": "pterodactylmarket@kitten.systems",
+    "author": "antonio@auroraprojects.es",
     "description": "vps",
     "features": null,
     "docker_images": {
@@ -22,7 +22,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\n# hello\r\ncd \/mnt\/server\r\ncurl https:\/\/raw.githubusercontent.com\/abdalla435\/VPS-Pterodactyl-EGG\/main\/PteroVM.sh -o install.sh\r\nchmod -R 777 *\r\necho \"click start~ meow\"",
+            "script": "#!\/bin\/bash\r\n# hello\r\ncd \/mnt\/server\r\ncurl https:\/\/raw.githubusercontent.com\/AntonioR-AuroraProjects\/pterodactyl-vps\/main\/PteroVM.sh -o install.sh\r\nchmod -R 777 *\r\necho \"click start~ meow\"",
             "container": "ghcr.io\/pterodactyl\/installers:debian",
             "entrypoint": "bash"
         }

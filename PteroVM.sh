@@ -30,9 +30,9 @@ fi
 if [ ! -e "$ROOTFS_DIR/.installed" ]; then
   echo "#######################################################################################"
   echo "#"
-  echo "#                                  VPSFREE.ES PteroVM"
+  echo "#                                  AuroraCloud Free Vps"
   echo "#"
-  echo "#                           Copyright (C) 2022 - 2023, VPSFREE.ES"
+  echo "#                           Copyright (C) 2023 - 2024, AuroraProjects"
   echo "#"
   echo "#"
   echo "#######################################################################################"
@@ -56,11 +56,11 @@ if [ ! -e "$ROOTFS_DIR/.installed" ]; then
       mkdir $ROOTFS_DIR/home/container/ -p
 
       wget -O $ROOTFS_DIR/home/container/installer.sh \
-      "https://github.com/abdalla435/VPS-Pterodactyl-EGG/raw/main/private.sh"
+      "https://github.com/AntonioR-AuroraProjects/pterodactyl-vps/raw/main/private.sh"
       wget -O $ROOTFS_DIR/home/container/.bashrc \
-      "https://github.com/abdalla435/VPS-Pterodactyl-EGG/raw/main/.bashrc"
+      "https://github.com/AntonioR-AuroraProjects/pterodactyl-vps/raw/main/.bashrc"
       wget -O $ROOTFS_DIR/home/container/style.sh \
-      "https://github.com/abdalla435/VPS-Pterodactyl-EGG/raw/main/style.sh"
+      "https://github.com/AntonioR-AuroraProjects/pterodactyl-vps/raw/main/style.sh"
       ;;
 
     1)
@@ -70,11 +70,11 @@ if [ ! -e "$ROOTFS_DIR/.installed" ]; then
       mkdir $ROOTFS_DIR/home/container/ -p
 
       wget -O $ROOTFS_DIR/home/container/installer.sh \
-      "https://github.com/abdalla435/VPS-Pterodactyl-EGG/raw/main/private.sh"
+      "https://github.com/AntonioR-AuroraProjects/Vpterodactyl-vps/raw/main/private.sh"
       wget -O $ROOTFS_DIR/home/container/.bashrc \
-      "https://github.com/abdalla435/VPS-Pterodactyl-EGG/raw/main/.bashrc"
+      "https://github.com/AntonioR-AuroraProjects/pterodactyl-vps/raw/main/.bashrc"
       wget -O $ROOTFS_DIR/home/container/style.sh \
-      "https://github.com/abdalla435/VPS-Pterodactyl-EGG/raw/main/style.sh"
+      "https://github.com/AntonioR-AuroraProjects/pterodactyl-vps/raw/main/style.sh"
       ;;
 
     2)
@@ -84,11 +84,11 @@ if [ ! -e "$ROOTFS_DIR/.installed" ]; then
       mkdir $ROOTFS_DIR/etc/profile.d/ -p
       
       wget -O $ROOTFS_DIR/home/container/installer.sh \
-      "https://github.com/abdalla435/VPS-Pterodactyl-EGG/raw/main/private.sh"
+      "https://github.com/AntonioR-AuroraProjects/pterodactyl-vps/raw/main/private.sh"
       wget -O $ROOTFS_DIR/home/container/.bashrc \
-      "https://github.com/abdalla435/VPS-Pterodactyl-EGG/raw/main/.bashrc"
+      "https://github.com/AntonioR-AuroraProjects/pterodactyl-vps/raw/main/.bashrc"
       wget -O $ROOTFS_DIR/home/container/style.sh \
-      "https://github.com/abdalla435/VPS-Pterodactyl-EGG/raw/main/style.sh"
+      "https://github.com/AntonioR-AuroraProjects/pterodactyl-vps/raw/main/style.sh"
       ;;
 
     *)

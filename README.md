@@ -1,7 +1,6 @@
 # FREE VPS Pterodactyl [ E . G . G ] 
 ---------------------
 # [ UBUNTU & DEBIAN & Alphine ] 💚
-- Centos Soon !
 ---------------------
 # 🔶 Installion
 ---------------------
@@ -10,6 +9,3 @@
 ---------------------
 # Here ya go, Done! 
 ---------------------
-# ✨ Credits
-- dxomg / DC: dxomg
-- JOO / DC: j6_o
